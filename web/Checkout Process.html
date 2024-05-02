@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Process</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Checkout Process</h1>
+        <div class="checkout-summary">
+            <?php
+            // Check if the form is submitted
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                // Collect form data
+                $name = $_POST['name'];
+                $email = $_POST['email'];
+                $address = $_POST['address'];
+                $payment_method = $_POST['payment_method'];
+                // Add more fields as needed
+
+                // Validate form data (you can add more validation rules)
+                if (empty($name) || empty($email) || empty($address) || empty($payment_method)) {
+                    // Handle empty fields
+                    echo "<p class='error'>Please fill in all required fields.</p>";
+                } else {
+                    // Process the order (you can add your logic here)
+                    // For demonstration purposes, let's just display the order details
+                    echo "<h2>Order Summary</h2>";
+                    echo "<p><strong>Name:</strong> $name</p>";
+                    echo "<p><strong>Email:</strong> $email</p>";
+                    echo "<p><strong>Address:</strong> $address</p>";
+                    echo "<p><strong>Payment Method:</strong> $payment_method</p>";
+                    // Add more order details as needed
+
+                    // You can also save the order to a database or send it to an external service
+                }
+            } else {
+                // Redirect to the checkout page if the form is not submitted
+                header("Location: checkout-page.php");
+                exit();
+            }
+            ?>
+        </div>
+    </div>
+</body>
+</html>
