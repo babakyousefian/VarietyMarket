@@ -30,7 +30,8 @@ Explore our website and discover the variety of products we have to offer. Thank
 <details>
 <summary>***Tasty Food...***</summary>
 
-![Special 1](images/special1.jpg)
+
+![Special 1](https://github.com/babakyousefian/VarietyMarket/assets/111069294/d241a215-0ba5-4df8-be62-85f27b161a92)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
@@ -40,7 +41,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 <details>
 <summary>***Journey to Volcano***</summary>
 
-![Special 2](images/special2.jpg)
+![Special 2](https://github.com/babakyousefian/VarietyMarket/assets/111069294/2f527644-14b0-4512-b15e-3d98b0757549)
+
 
 Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
@@ -51,7 +53,7 @@ Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mi
 
 ## Contact Us
 
-![Contact Us](icon/contact_US_-.png)
+![Contact Us](https://github.com/babakyousefian/VarietyMarket/assets/111069294/492abcff-c4db-4727-8eb4-f763ab938e9e)
 
 <details>
 <summary>***Contact Information***</summary>
