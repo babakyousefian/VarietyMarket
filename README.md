@@ -1,6 +1,7 @@
 # Welcome to VarietyMart
 
-![VarietyMart Logo](file:///D:/programming/chatGPT.education/GPT3/Projects/pro3/Demo%20WebSite%20was%20created%20by%20babak/facilities/logo/trend-1203005_640.jpg)
+![VarietyMart Logo](https://github.com/babakyousefian/VarietyMarket/assets/111069294/abab0fd9-b822-417d-b1eb-8aac953eab76)
+
 
 Your one-stop shop for quality goods.
 
